@@ -1,5 +1,4 @@
 # Jogo da Memória
-
 Bem-vindo ao **Jogo da Memória**! Este é um jogo simples desenvolvido com HTML, CSS e JavaScript, onde você deve combinar pares de cartas para ganhar. O jogo também possui uma tela de login onde o usuário pode inserir seu nome antes de começar a jogar.
 
 ## Funcionalidades
