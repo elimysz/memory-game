@@ -13,13 +13,13 @@ Bem-vindo ao **Jogo da Memória**! Este é um jogo simples desenvolvido com HTML
 
 ### Tela de Login
 
-![Tela de Login](./images/screenshot-login.png)
+![Tela de Login](./images/outras-imagens/tela-principal.png)
 
 Descrição da tela de login. Aqui você insere seu nome e clica em "Jogar" para iniciar o jogo.
 
 ### Jogo da Memória
 
-![Jogo da Memória](./images/screenshot-game.png)
+![Jogo da Memória](./images/outras-imagens/tela-game.png)
 
 Descrição do jogo da memória. Você deve combinar pares de cartas para vencer.
 
