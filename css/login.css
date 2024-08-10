@@ -1,0 +1,131 @@
+body{
+  background-color: #f1eedd;
+}
+
+/* Estilos do formulário de login */
+.login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 90vh; /* 90% da altura da viewport */
+  justify-content: center;
+  padding: 0 15px; /* Adiciona espaçamento lateral para dispositivos menores */
+}
+
+.login__header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center; /* Centraliza o texto */
+}
+
+.login__header img {
+  max-width: 100%; /* Torna a imagem responsiva */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.login__header h1, .login__header h2 {
+  margin: 0; /* Remove margens padrões dos elementos */
+}
+
+.login__header h1 {
+  font-size: 3rem; /* Use rem para consistência */
+  padding: 0.8rem;
+}
+
+.login__header h2 {
+  font-size: 2.2rem; /* Use rem para consistência */
+}
+
+.login__input, .login__button {
+  border: 2px solid #333;
+  border-radius: 8px;
+  color: #333;
+  font-size: 1rem; /* Use rem para consistência */
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 100%;
+  max-width: 250px;
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura total */
+}
+
+.login__button {
+  background-color: #74740d;
+  border: 3px solid #dfca28;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem; /* Use rem para consistência */
+}
+
+.login__button:disabled {
+  background-color: #eee;
+  border: 2px solid #969595;
+  color: #aaa;
+  cursor: auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .login__header h1 {
+      font-size: 1.2rem; /* Use rem para consistência */
+  }
+
+  .login__header h2 {
+      font-size: 1rem; /* Use rem para consistência */
+  }
+
+  .login__input, .login__button {
+      font-size: 0.9rem; /* Use rem para consistência */
+  }
+}
+
+@media (max-width: 480px) {
+  .login__header h1 {
+      font-size: 1.1rem; /* Use rem para consistência */
+  }
+
+  .login__header h2 {
+      font-size: 0.9rem; /* Use rem para consistência */
+  }
+
+  .login__input, .login__button {
+      font-size: 0.8rem; /* Use rem para consistência */
+  }
+}
+
+/* Estilos do Footer */
+.footer {
+  background-color: #f8f6e0; /* Cor de fundo do footer */
+  color: #494843; /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px; /* Largura máxima do conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo */
+  padding: 0 15px; /* Adiciona espaçamento lateral */
+}
+
+.footer p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0; /* Remove a margem padrão do parágrafo */
+}
+
+/* Media Queries para dispositivos menores */
+@media (max-width: 768px) {
+  .footer-content {
+      padding: 0 15px; /* Adiciona um pouco de espaçamento lateral */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+      padding: 15px; /* Reduz o padding do footer em telas muito pequenas */
+  }
+}
